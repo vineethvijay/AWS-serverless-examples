@@ -1,4 +1,4 @@
-# AWS-Lambda-Examples
+# AWS-Serverless-Examples
 
 ## Lambda examples to try out
 
