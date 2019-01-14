@@ -1,4 +1,4 @@
-# Steps
+### Steps
 
 1. npm install -g serverless
 
@@ -8,11 +8,12 @@
 
 
 //create the boilerplate mentioned above
+
 4. sls create --template  hello-world
 
 // generate a package.json file
-5. npm init
 
+5. npm init
 
 
 //install express - a simple web framework
@@ -22,8 +23,6 @@
 
 6. npm i --save express body-parser hbs serverless-http
 
-
-
 7. change handler.js
 
 8. copy view/index.hbs
@@ -31,3 +30,7 @@
 9. change serverless.yml
 
 10. sls deploy
+
+### Local testing
+
+1. serverless invoke local -f app
