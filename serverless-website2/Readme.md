@@ -1,3 +1,5 @@
+# Steps
+
 1. npm install -g serverless
 
 2. serverless login

@@ -4,11 +4,14 @@
 
 - Simple lambda execution
 - Lambda with API Gateway
-- Lambda with s3 as trigger
-- Lambda with s3 data processing
+- Lambda with S3 as trigger
+- Lambda with S3 data processing
 - Lambda with SNS as trigger and pubish to topic
 - Lambda with Cloudwatch trigger and write to DynamoDB
 
-### Serverless framework 
+### Serverless framework example
 
-- Simple website using serverless
+- Simple http 
+- Simple image gallery
+
+### AWS SAM example
