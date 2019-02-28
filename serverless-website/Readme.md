@@ -31,6 +31,10 @@
 
 10. sls deploy
 
+eg:
+serverless deploy --stage production --region eu-central-1
+serverless deploy function --function myFunction (doesn't touch cloudformation)
+
 ### Local testing
 
 1. serverless invoke local -f app

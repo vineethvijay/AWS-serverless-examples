@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  HelloWorldFunction:
+    Properties:
+      CodeUri: s3://serverless-sam-bucket1/1f4b37e751df76238526141567f7c739
+      Events:
+        HelloWorldApi:
+          Properties:
+            Method: GET
+            Path: /
+          Type: Api
+      Handler: index.handler
+      Runtime: nodejs8.10
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
