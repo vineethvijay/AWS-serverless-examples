@@ -12,7 +12,7 @@ def lambda_handler(event, context):
         'Item': {
             'timestamp': timestamp,
             'datetime' : now.isoformat(),
-            'message' : "Test for added column"
+            'message' : "Written to table"
         }
 
     }

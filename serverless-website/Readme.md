@@ -7,7 +7,7 @@
 3. serverless config credentials --provider aws --key xxxxxxxxxxxxxx --secret xxxxxxxxxxxxxx
 
 
-//create the boilerplate mentioned above
+//create the boilerplate
 
 4. sls create --template  hello-world
 
